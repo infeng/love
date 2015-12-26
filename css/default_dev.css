@@ -11,6 +11,11 @@ body {
 	height: 100%;
 }
 
+#logo {
+  position: relative;
+  top: -100px;
+}
+
 #loveHeart {
 	float: left;
 	width:670px;
