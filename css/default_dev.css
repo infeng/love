@@ -118,3 +118,24 @@ body {
 #copyright a{
 	color:#666;
 }
+
+@media (max-device-width: 425px) {
+  #code {
+    display: none;
+  }
+  #logo {
+    display: none;
+  }
+  #loveHeart {
+    float: none;
+    position: relative;
+    margin: 0 auto;
+    left: -60px;
+  }
+  #content {
+    width: 100%;
+  }
+  #copyright {
+    display: none;
+  }
+}
